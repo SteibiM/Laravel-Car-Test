@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('content')
+    <h1>CARS</h1>
     <div class="full-section">
         @foreach($cars as $car)
             <div class="name">{{ $car->id }}){{ $car->name }}</div>
